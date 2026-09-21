@@ -4,12 +4,25 @@
   overflow: hidden;
 }
 
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
 #onpage {
   text-decoration: underline overline;
 }
 
-#navbar-container {
-}
 
 #sidebar {
   position: fixed;
